@@ -80,7 +80,7 @@ export default function Dashboard({ result, fileName, onReset }) {
       {/* Top bar */}
       <div style={{ background: 'var(--bg2)', borderBottom: '1px solid var(--border)', padding: '0 2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '56px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '16px', letterSpacing: '-0.01em' }}>Utilization<span style={{ color: 'var(--accent)' }}>.</span></span>
+          <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '16px', letterSpacing: '-0.01em' }}>DM Dashboard<span style={{ color: 'var(--accent)' }}>.</span></span>
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--text3)', background: 'var(--bg3)', padding: '3px 8px', borderRadius: '4px' }}>{fileName}</span>
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--accent)', background: 'rgba(200,240,74,0.08)', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
             {mode === 'timesheet' ? 'Timesheet' : 'Utilization'}
