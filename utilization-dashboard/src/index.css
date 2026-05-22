@@ -1,25 +1,27 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0c0c0f;
-  --bg2: #141418;
-  --bg3: #1c1c22;
-  --border: rgba(255,255,255,0.07);
-  --border2: rgba(255,255,255,0.12);
-  --text: #f0f0ee;
-  --text2: #8a8a94;
-  --text3: #55555e;
-  --accent: #c8f04a;
-  --accent2: rgba(200,240,74,0.12);
-  --teal: #4af0c8;
-  --teal2: rgba(74,240,200,0.1);
-  --red: #f04a4a;
-  --red2: rgba(240,74,74,0.12);
-  --amber: #f0a94a;
-  --amber2: rgba(240,169,74,0.12);
-  --radius: 6px;
-  --radius-lg: 10px;
-  --font-display: 'Syne', sans-serif;
+  --bg: #F5F2E8;
+  --bg2: #EDEADF;
+  --bg3: #E4E0D4;
+  --bg-dark: #111110;
+  --border: rgba(26,25,20,0.1);
+  --border2: rgba(26,25,20,0.18);
+  --text: #1a1918;
+  --text2: #6b6860;
+  --text3: #a8a49a;
+  --accent: #1a1918;
+  --accent-rust: #C4521A;
+  --green: #4a7a2a;
+  --green2: rgba(74,122,42,0.1);
+  --red: #b83030;
+  --red2: rgba(184,48,48,0.1);
+  --amber: #9a6820;
+  --amber2: rgba(154,104,32,0.1);
+  --teal: #2a6a7a;
+  --radius: 3px;
+  --radius-lg: 5px;
+  --font-display: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
 
