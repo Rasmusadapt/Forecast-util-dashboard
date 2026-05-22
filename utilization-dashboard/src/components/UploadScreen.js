@@ -165,8 +165,7 @@ export default function UploadScreen({ onData }) {
   return (
     <div style={styles.wrap}>
       <div style={styles.header}>
-        <p style={styles.eyebrow}>Team Indigo · Utilization</p>
-        <h1 style={styles.title}>Utilization<br />Dashboard</h1>
+        <h1 style={styles.title}>DM Dashboard</h1>
         <p style={styles.sub}>Upload en time-registreringsfil og få et øjeblikkeligt overblik over teamets udnyttelse.</p>
       </div>
 
