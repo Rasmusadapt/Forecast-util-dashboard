@@ -5,11 +5,11 @@ export default function StatCard({ label, value, sub, accent }) {
     <div style={{
       background: 'var(--bg2)',
       border: '1px solid var(--border)',
-      borderRadius: 'var(--radius-lg)',
+      borderRadius: 'var(--radius)',
       padding: '1.25rem 1.5rem',
       display: 'flex',
       flexDirection: 'column',
-      gap: '4px',
+      gap: '6px',
     }}>
       <span style={{
         fontFamily: 'var(--font-mono)',
@@ -20,13 +20,13 @@ export default function StatCard({ label, value, sub, accent }) {
       }}>{label}</span>
       <span style={{
         fontFamily: 'var(--font-display)',
-        fontSize: '1.75rem',
-        fontWeight: 700,
+        fontSize: '2rem',
+        fontWeight: 300,
         color: accent || 'var(--text)',
-        lineHeight: 1.1,
+        lineHeight: 1.0,
         letterSpacing: '-0.02em',
       }}>{value}</span>
-      {sub && <span style={{ fontSize: '12px', color: 'var(--text2)' }}>{sub}</span>}
+      {sub && <span style={{ fontSize: '12px', color: 'var(--text3)', fontFamily: 'var(--font-mono)' }}>{sub}</span>}
     </div>
   );
 }
